@@ -1,0 +1,23 @@
+{
+  "name": "coffee-repo",
+  "version": "1.0.0",
+  "description": "sharing app for coffee-lover",
+  "main": "index.js",
+  "author": "Ryuji Oda <ryuji.oda@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "echo 100",
+    "commit": "git cz",
+    "readme": "npx readme-md-generator"
+  },
+  "devDependencies": {
+    "cz-emoji": "1.2.1",
+    "commitizen": "4.1.2",
+    "readme-md-generator": "1.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-emoji"
+    }
+  }
+}
